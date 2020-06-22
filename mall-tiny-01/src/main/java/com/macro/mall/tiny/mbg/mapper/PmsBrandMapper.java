@@ -2,9 +2,7 @@ package com.macro.mall.tiny.mbg.mapper;
 
 import com.macro.mall.tiny.mbg.model.PmsBrand;
 import com.macro.mall.tiny.mbg.model.PmsBrandExample;
-
 import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
 
 public interface PmsBrandMapper {
