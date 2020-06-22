@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="/js/jquery-core/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+
+<h1>123456789</h1>
+<div>
+    <table border="1">
+        <h4>商品列表</h4>
+        <tr th:each="brand: ${brandsList}">
+            <td th:text="${brand.getName()}"></td>
+            <td th:text="${brand.getId()}"></td>
+            <td th:text="${brand.getFactoryStatus()}"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
